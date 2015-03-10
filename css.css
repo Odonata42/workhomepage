@@ -1,0 +1,331 @@
+.topContainerLeft a:link, .topContainerLeft a:visited {
+    color: #00669E
+}
+
+.topContainerLeft a:hover {
+    color: #0DD694;
+    text-decoration: none
+}
+
+.topContainerLeft a:active {
+    color: #0DD694
+}
+
+
+
+.help-icon-large {
+    background: url(../images/48x48/help2.png)!important;
+    height: 48px;
+    width: 48px
+}
+
+.about-icon-large {
+    background: url(../images/48x48/about.png)!important;
+    height: 48px;
+    width: 48px
+}
+
+.tableContainer {
+    width:100%;
+}
+.leftPanelIframe {
+    height: 100%;
+
+}
+
+.rightPanelIframe {
+    background: #efefef;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 100%;
+}
+.innerIframe {
+    width:100%;
+    height:100%;
+}
+
+.leftPanelIframeContainer{
+    width:70%;
+    float:left;
+    height:100%;
+}
+.rightPanelIframeContainer {
+    width:30%;
+    float:right;
+    height:100%;
+}
+
+
+.rightPanelBox {
+    display: block;
+    overflow: auto;
+    margin: 15px;
+    background-color: #FFF;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'LFTEtica-Regular', Sans-Serif;
+    box-shadow: inset 1px 1px 1px 1px #D8D8D8
+}
+.rightLinkBox {
+    background:#bf0001;
+    font-size: 25px;
+    color: #FFF;
+    padding:10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:block;
+    font-family: 'LFTEtica-Bold', Sans-Serif
+}
+.rightLinkBox a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.rightLinkBox:hover {
+    background: #FFF;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #bf0001;
+}
+
+@font-face {
+    font-family: 'LFTEtica-Bold';
+    src: url('fonts/LFTEtica-Bold.otf')
+}
+
+.topContainerLeft {
+    top: 0;
+    left: 0
+}
+.topContainer {
+    height:100%;
+}
+
+.container {
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    overflow: auto;
+    width: 100%
+}
+
+.topTitle {
+    font-family: 'LFTEtica-Bold', Sans-Serif;
+    position: relative;
+    height: 50px;
+    width: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    border-bottom: solid 3px #000
+}
+
+.contentBox {
+    display: block;
+    overflow: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #F2F2F2;
+    padding: 20px;
+    font-family: 'LFTEtica-Regular', Sans-Serif;
+    box-shadow: inset 1px 1px 1px #D8D8D8;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.contentBoxInvisible {
+    display: block;
+    overflow: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'LFTEtica-Regular', Sans-Serif;
+}
+
+.contentTitle {
+    color: #bf0001;
+    font-family: 'LFTEtica-Bold', Sans-Serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.contentText {
+    position: relative;
+    line-height: 30px;
+    text-align: center
+}
+
+.contentTextWithImage {
+    display: inline-block;
+    width: 560px;
+    word-wrap: break-word
+}
+
+.contentImage {
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    float: right
+}
+
+.includedImage {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #CFCFCF;
+    max-width:100%;
+    height:auto;
+}
+
+.stuckBox {
+    margin-top: 20px
+}
+
+.logoImage {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #D7D7D7;
+    left: 22px;
+    position: relative
+}
+
+.twitter {
+    position: relative;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.twitter-timeline {
+    overflow: auto
+}
+
+body {
+    font-size: 1em;
+    font-family: Calibri;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: #Fff;
+    text-align: justify;
+    height:100%;
+}
+html {
+    height:100%;
+}
+.rightBody {
+    background:#efefef;
+}
+
+p {
+    margin-top: 0;
+    margin-right: .75cm;
+    margin-left: .7cm;
+    margin-bottom: 0;
+    line-height: 1.6em;
+    padding-bottom: 8px
+}
+
+li {
+    padding-bottom: 8px;
+    margin-right: .75cm
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 1.7em;
+    color: #666;
+    font-variant: none;
+    text-transform: none;
+    text-align: left
+}
+
+h1 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 3pt;
+    margin-left: 0;
+    padding: .5cm;
+    font-size: 14pt;
+    font-family: arial,tahoma,helvetica,sans-serif;
+    color: #EC2866;
+    letter-spacing: 0;
+    border-bottom: 4px solid #EC2866
+}
+
+h2 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 3pt;
+    margin-left: .7cm;
+    padding: 0;
+    font-size: 13.0pt;
+    font-family: arial,tahoma,helvetica,sans-serif;
+    color: #EC2866;
+    letter-spacing: 0
+}
+
+h3 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 3pt;
+    margin-left: .7cm;
+    padding: 0;
+    font-size: 13.0pt;
+    font-family: arial,tahoma,helvetica,sans-serif;
+    color: #EC2866;
+    letter-spacing: 0
+}
+
+h4 {
+    font-size: 1.1em
+}
+
+h5,h6 {
+    font-size: 1em
+}
+
+.title-blue {
+    color: #008AC6;
+    border-bottom-color: #008AC6
+}
+
+#formContainer{
+    display: block;
+    font-size:14px;
+    padding:4px 2px;
+    width:70px;
+    width:auto;
+}
+
+
+#fieldEmail{
+    width:100%;
+    height: 40px;
+    color:#999;
+    outline:none;
+    padding:4px 2px;
+
+}
+#emailSubmit {
+    background:#bf0001;
+    float:right;
+    color: #FFF;
+    border: none;
+    font-family: 'LFTEtica-Bold', Sans-Serif;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom: 10px
+}
+*/
